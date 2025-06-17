@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_full_course/components/post_item.dart';
-import 'package:flutter_full_course/components/toolbar.dart';
-import 'package:flutter_full_course/config/app_icons.dart';
-import 'package:flutter_full_course/config/app_routes.dart';
-import 'package:flutter_full_course/config/app_strings.dart';
-import 'package:flutter_full_course/data/model/post.dart';
-import 'package:flutter_full_course/provider/post_provider.dart';
+import 'package:netsoo/components/post_item.dart';
+import 'package:netsoo/components/toolbar.dart';
+import 'package:netsoo/config/app_icons.dart';
+import 'package:netsoo/config/app_routes.dart';
+import 'package:netsoo/config/app_strings.dart';
+import 'package:netsoo/data/model/post.dart';
+import 'package:netsoo/provider/post_provider.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:provider/provider.dart';
 

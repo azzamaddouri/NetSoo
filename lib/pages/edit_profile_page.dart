@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_full_course/components/app_text_field.dart';
-import 'package:flutter_full_course/components/toolbar.dart';
-import 'package:flutter_full_course/components/user_avatar.dart';
-import 'package:flutter_full_course/config/app_strings.dart';
-import 'package:flutter_full_course/styles/app_colors.dart';
-import 'package:flutter_full_course/styles/app_text.dart';
+import 'package:netsoo/components/app_text_field.dart';
+import 'package:netsoo/components/toolbar.dart';
+import 'package:netsoo/components/user_avatar.dart';
+import 'package:netsoo/config/app_strings.dart';
+import 'package:netsoo/styles/app_colors.dart';
+import 'package:netsoo/styles/app_text.dart';
 
 enum Gender { none, male, female, other }
 

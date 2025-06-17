@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_full_course/data/response/login_response.dart';
-import 'package:flutter_full_course/data/service/login_service.dart';
+import 'package:netsoo/data/response/login_response.dart';
+import 'package:netsoo/data/service/login_service.dart';
 
 class LoginProvider extends ChangeNotifier {
   var username = '';

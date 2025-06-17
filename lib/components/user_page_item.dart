@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_full_course/components/user_avatar.dart';
-import 'package:flutter_full_course/data/model/user.dart';
-import 'package:flutter_full_course/styles/app_colors.dart';
-import 'package:flutter_full_course/styles/app_text.dart';
+import 'package:netsoo/components/user_avatar.dart';
+import 'package:netsoo/data/model/user.dart';
+import 'package:netsoo/styles/app_colors.dart';
+import 'package:netsoo/styles/app_text.dart';
 
 class UserPageItem extends StatelessWidget {
   final User user;

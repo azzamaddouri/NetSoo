@@ -1,4 +1,4 @@
-import 'package:flutter_full_course/data/model/user.dart';
+import 'package:netsoo/data/model/user.dart';
 
 class Post {
   final int? id;

@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_full_course/data/model/chat.dart';
-import 'package:flutter_full_course/data/model/user.dart';
+import 'package:netsoo/data/model/chat.dart';
+import 'package:netsoo/data/model/user.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
 
 class AppRepo extends ChangeNotifier {

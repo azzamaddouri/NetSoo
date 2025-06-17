@@ -1,4 +1,4 @@
-package com.example.flutter_full_course
+package com.example.netsoo
 
 import io.flutter.embedding.android.FlutterActivity
 

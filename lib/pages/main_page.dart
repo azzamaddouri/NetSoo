@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_full_course/components/bottom_navigation_item.dart';
-import 'package:flutter_full_course/components/new_post_modal.dart';
-import 'package:flutter_full_course/config/app_icons.dart';
-import 'package:flutter_full_course/config/app_strings.dart';
-import 'package:flutter_full_course/data/model/user.dart';
-import 'package:flutter_full_course/pages/chat_page.dart';
-import 'package:flutter_full_course/pages/home_page.dart';
-import 'package:flutter_full_course/pages/profile_page.dart';
-import 'package:flutter_full_course/styles/app_colors.dart';
+import 'package:netsoo/components/bottom_navigation_item.dart';
+import 'package:netsoo/components/new_post_modal.dart';
+import 'package:netsoo/config/app_icons.dart';
+import 'package:netsoo/config/app_strings.dart';
+import 'package:netsoo/data/model/user.dart';
+import 'package:netsoo/pages/chat_page.dart';
+import 'package:netsoo/pages/home_page.dart';
+import 'package:netsoo/pages/profile_page.dart';
+import 'package:netsoo/styles/app_colors.dart';
 import 'package:flutter_svg/svg.dart';
 
 class MainPage extends StatefulWidget {

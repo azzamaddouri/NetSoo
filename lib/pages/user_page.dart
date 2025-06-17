@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_full_course/components/toolbar.dart';
-import 'package:flutter_full_course/components/user_avatar.dart';
+import 'package:netsoo/components/toolbar.dart';
+import 'package:netsoo/components/user_avatar.dart';
 
 class UserPage extends StatefulWidget {
   UserPage({super.key});

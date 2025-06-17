@@ -1,4 +1,4 @@
-import 'package:flutter_full_course/data/service/base_service.dart';
+import 'package:netsoo/data/service/base_service.dart';
 
 import '../model/user.dart';
 

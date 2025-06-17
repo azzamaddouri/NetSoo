@@ -1,11 +1,11 @@
-import 'package:flutter_full_course/data/model/user.dart';
-import 'package:flutter_full_course/pages/edit_profile_page.dart';
-import 'package:flutter_full_course/pages/home_page.dart';
-import 'package:flutter_full_course/pages/login_page.dart';
-import 'package:flutter_full_course/pages/main_page.dart';
-import 'package:flutter_full_course/pages/nearby_page.dart';
-import 'package:flutter_full_course/pages/user_page.dart';
-import 'package:flutter_full_course/provider/login_provider.dart';
+import 'package:netsoo/data/model/user.dart';
+import 'package:netsoo/pages/edit_profile_page.dart';
+import 'package:netsoo/pages/home_page.dart';
+import 'package:netsoo/pages/login_page.dart';
+import 'package:netsoo/pages/main_page.dart';
+import 'package:netsoo/pages/nearby_page.dart';
+import 'package:netsoo/pages/user_page.dart';
+import 'package:netsoo/provider/login_provider.dart';
 import 'package:provider/provider.dart';
 
 class AppRoutes {

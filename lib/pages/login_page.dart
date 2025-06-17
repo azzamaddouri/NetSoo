@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_full_course/config/app_icons.dart';
-import 'package:flutter_full_course/config/app_routes.dart';
-import 'package:flutter_full_course/config/app_strings.dart';
-import 'package:flutter_full_course/provider/app_repo.dart';
+import 'package:netsoo/config/app_icons.dart';
+import 'package:netsoo/config/app_routes.dart';
+import 'package:netsoo/config/app_strings.dart';
+import 'package:netsoo/provider/app_repo.dart';
 
-import 'package:flutter_full_course/provider/login_provider.dart';
+import 'package:netsoo/provider/login_provider.dart';
 
 import 'package:provider/provider.dart';
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_full_course/components/user_avatar.dart';
-import 'package:flutter_full_course/data/model/chat.dart';
-import 'package:flutter_full_course/styles/app_colors.dart';
+import 'package:netsoo/components/user_avatar.dart';
+import 'package:netsoo/data/model/chat.dart';
+import 'package:netsoo/styles/app_colors.dart';
 
 class ChatMeItem extends StatelessWidget {
   final Chat chat;
