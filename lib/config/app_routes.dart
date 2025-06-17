@@ -1,4 +1,3 @@
-import 'package:netsoo/data/model/user.dart';
 import 'package:netsoo/pages/edit_profile_page.dart';
 import 'package:netsoo/pages/home_page.dart';
 import 'package:netsoo/pages/login_page.dart';
