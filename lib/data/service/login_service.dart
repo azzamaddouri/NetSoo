@@ -2,7 +2,6 @@ import 'dart:convert';
 
 import 'package:netsoo/config/app_config.dart';
 import 'package:netsoo/data/response/login_response.dart';
-import 'package:netsoo/data/model/user.dart';
 import 'package:netsoo/data/service/base_service.dart';
 import 'package:http/http.dart' as http;
 

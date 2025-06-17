@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:netsoo/components/bottom_navigation_item.dart';
 import 'package:netsoo/components/new_post_modal.dart';
 import 'package:netsoo/config/app_icons.dart';
-import 'package:netsoo/config/app_strings.dart';
-import 'package:netsoo/data/model/user.dart';
 import 'package:netsoo/pages/chat_page.dart';
 import 'package:netsoo/pages/home_page.dart';
 import 'package:netsoo/pages/profile_page.dart';

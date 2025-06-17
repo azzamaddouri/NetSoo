@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_map/flutter_map.dart';
 import 'package:netsoo/components/toolbar.dart';
 import 'package:netsoo/components/user_page_item.dart';
-import 'package:netsoo/config/app_icons.dart';
 import 'package:netsoo/config/app_strings.dart';
 import 'package:netsoo/provider/user_provider.dart';
-import 'package:flutter_map/plugin_api.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:provider/provider.dart';
 import 'dart:ui' as ui;
@@ -45,7 +43,7 @@ class _NearbyPageState extends State<NearbyPage> {
             children: [
               FlutterMap(
                 options:
-                    MapOptions(center: LatLng(51.509364, -0.128928), zoom: 10),
+                    MapOptions(initialCenter: LatLng(51.509364, -0.128928), initialZoom: 10),
                 children: [
                   TileLayer(
                     urlTemplate:
@@ -60,8 +58,7 @@ class _NearbyPageState extends State<NearbyPage> {
                               height: 100,
                               point: LatLng(user.location?.lat ?? 0,
                                   user.location?.lng ?? 0),
-                              builder: (context) {
-                                return GestureDetector(
+                              child: GestureDetector(
                                   onTap: () {
                                     var page = 0;
                                     for (var i = 0; i < users.length; i++) {
@@ -107,8 +104,8 @@ class _NearbyPageState extends State<NearbyPage> {
                                       ),
                                     ],
                                   ),
-                                );
-                              },
+                                )
+                             
                             ))
                         .toList(),
                   ),

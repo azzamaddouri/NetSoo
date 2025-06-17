@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:netsoo/components/toolbar.dart';
-import 'package:netsoo/components/user_avatar.dart';
 
 class UserPage extends StatefulWidget {
   UserPage({super.key});
@@ -46,14 +44,14 @@ class _UserPageState extends State<UserPage> {
 
 class MyUserAppbar extends StatelessWidget {
   final double offset;
-  var expanded = true;
-  MyUserAppbar({super.key, required this.offset});
+  const MyUserAppbar({super.key, required this.offset});
 
+  @override
   @override
   Widget build(BuildContext context) {
     final width = MediaQuery.of(context).size.width;
     final progress = offset / width;
-    expanded = progress < 0.04;
+    final expanded = progress < 0.04;
     print(expanded);
     return AnimatedContainer(
       duration: Duration(milliseconds: 200),

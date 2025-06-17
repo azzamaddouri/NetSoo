@@ -1,4 +1,3 @@
-import 'package:netsoo/data/model/post.dart';
 import 'package:netsoo/data/service/base_service.dart';
 
 class CreatePostService extends ServiceBase<void> {

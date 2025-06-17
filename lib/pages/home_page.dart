@@ -4,7 +4,6 @@ import 'package:netsoo/components/toolbar.dart';
 import 'package:netsoo/config/app_icons.dart';
 import 'package:netsoo/config/app_routes.dart';
 import 'package:netsoo/config/app_strings.dart';
-import 'package:netsoo/data/model/post.dart';
 import 'package:netsoo/provider/post_provider.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:provider/provider.dart';

@@ -16,9 +16,6 @@ class Utils {
   static Future<CroppedFile?> cropImage(String path) async {
     final result = await ImageCropper().cropImage(
       sourcePath: path,
-      aspectRatioPresets: [
-        CropAspectRatioPreset.square,
-      ],
       aspectRatio: CropAspectRatio(ratioX: 1, ratioY: 1),
     );
     return result;

@@ -30,19 +30,18 @@ class ProfilePage extends StatelessWidget {
                 case ProfileMenu.logout:
                   print('log out');
                   break;
-                default:
-              }
+                }
             },
             icon: const Icon(Icons.more_vert_rounded),
             itemBuilder: (context) {
               return [
                 PopupMenuItem(
-                  child: Text(AppStrings.edit),
                   value: ProfileMenu.edit,
+                  child: Text(AppStrings.edit),
                 ),
                 PopupMenuItem(
-                  child: Text(AppStrings.logout),
                   value: ProfileMenu.logout,
+                  child: Text(AppStrings.logout),
                 ),
               ];
             },
